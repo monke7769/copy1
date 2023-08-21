@@ -67,7 +67,7 @@ brew install python
 echo "=== Install Jupyter Notebook ==="
 brew install jupyter
 
-# bash commands, install user requirements.
+# bsh commands, install user requirements.
 export GEM_HOME="$HOME/gems"
 export PATH="$HOME/gems/bin:$PATH"
 echo '# Install Ruby Gems to ~/gems' >> ~/.zshrc
