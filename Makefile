@@ -1,10 +1,10 @@
 # Configuration, override port with usage: make PORT=4300
-PORT ?= 4200
+PORT ?= 4800
 REPO_NAME ?= student
 LOG_FILE = /tmp/jekyll$(PORT).log
 # Exceptions will stop make
 SHELL = /bin/bash
-# .SHELLFLAGS = -e
+.SHELLFLAGS = -e
 
 # Phony Targets, makefile housekeeping for below definitions
 .PHONY: default server convert clean stop
@@ -59,7 +59,7 @@ server: stop convert
 	@@nohup bundle exec jekyll serve -H 0.0.0.0 -P $(PORT) > $(LOG_FILE) 2>&1 & \
 		PID=$$!; \
 		echo "Server PID: $$PID"
-	@@until [ -f $(LOG_FILE) ]; do sleep 1; done
+		until [ -f $(LOG_FILE) ]; do sleep 1; done
 
 
 # Convert .ipynb files to Markdown with front matter

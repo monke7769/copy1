@@ -9,15 +9,25 @@ Subscribe to my [Youtube channel](https://youtube.com/@84115) !!
 Go to my [Github account](https://github.com/monke7769)
 
 ## About me
-Blogging in GitHub pages is a way to learn and code at the same time. Very fun. 💀
+DNHS student, class of '26. Loves CS and math. 3 years of python experience, 3 years of bash experience, 2 months of C++
+
+### Achievements
 
 - 1918 AoPS FTW rating (global #11)
 - USACO Silver
-- 140 top wpm
 - USAJMO qualifier
-- 17k bralw stars trophies
+- 140 top wpm
+- 17k brawl stars trophies
+- 5 on AP Music Theory 🤣
 - crossy road top score 1000
-- Tangibles or [Tangible Artifacts](https://en.wikipedia.org/wiki/Artifact_(software_development)) are things you accumulate as a learner and coder. 
+- 3 years of Python experience, C++ novice
+
+Freeform 
+-------------
+
+![](https://i.ibb.co/yRk7Lk2/Screenshot-2023-08-22-at-7-43-54-PM.png) 
+
+###### am also future piktur arteest
 
 ## Mon 8/21
 
@@ -32,3 +42,36 @@ to host the site locally - which is putting the site at [127.0.0.1:4000/student/
 ```
 make: *** [_posts/2023-08-17-AP-pseudo-vs-python_IPYNB_2_.md] Error 1
 ```
+
+### Tools
+
+The biggest tool involved in the making of this website is Makefile. Makefile defines a set of tasks to be executed, such as in the case of having a website, it will define tasks such as starting the local server, starting logging, and converting notebook files to Markdown to be read.
+
+## Tues 8/22
+
+Figured out make (finally) the command that fixed everything was 
+```
+ln -s /opt/homebrew/share/jupyter/nbconvert ~/Library/Jupyter
+```
+hopefully no more problems with setting up the site. working on putting images and new theme on the about me page.
+
+![](https://i.ibb.co/1J2pjBV/Screenshot-2023-08-23-at-10-21-51-AM.png)
+
+## Thurs 8/24
+
+I want to use this theme:
+[https://github.com/abhinavs/moonwalk](https://github.com/abhinavs/moonwalk)
+
+It looks so good but I haven't figured out how to import the theme into my github pages
+I have changed the _config.yml file to use 
+```
+remote_theme: abhinavs/moonwalk
+```
+and even tried copy-pasting the contents of moonwalk.gemspec into this repo's Gemfile but neither has worked.. 
+right now running the server gives me a file not found error
+![](https://images2.imgbox.com/49/37/6VbkoAzQ_o.png)
+I'm going to try to investigate the cause of the error in _includes/head.html and in _layouts. wish me luck
+
+## Fri 8/25
+
+Learned/reviewed some of the basics in Python. From now on, blogging with code will be in the "Blog" section of the site (using *.ipynb files).
