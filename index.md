@@ -74,4 +74,96 @@ I'm going to try to investigate the cause of the error in _includes/head.html an
 
 ## Fri 8/25
 
-Learned/reviewed some of the basics in Python. From now on, blogging with code will be in the "Blog" section of the site (using *.ipynb files).
+Learned/reviewed some of the basics in Python. From now on, blogging with code will be in the "Blog" section of the site (using *.ipynb files) and located in the table in the CompSci Notebook page.
+
+<style>
+
+  body {
+      background-color: #874e28;
+      color: #FF5B09;
+      animation: fadeInAnimation ease 3s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+  }
+  @keyframes fadeInAnimation {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 0.75;
+      }
+  }
+
+  h1::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+h1:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+h1::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: rgb(37, 73, 28);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+h1 {
+  position: relative;
+  color: #e454eb;
+  font-size: 3rem;
+  font-family: Monospace;
+}
+p {
+  font-family: Monospace;
+}
+
+html {
+  block-size: 100%;
+  inline-size: 100%;
+}
+
+body {
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
+  font-family: system-ui, sans-serif;
+  color: #99E8C3;
+}
+
+h2 {
+  position: relative;
+  color: #FD4F04;
+  font-size: 2rem;
+  font-family: Monospace;
+}
+
+h3 {
+  position: relative;
+  color: #0BEDF5;
+  font-size: 1rem;
+  font-family: Monospace;
+}
+.block-container {
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+@media (orientation: landscape) {
+  body {
+    grid-auto-flow: column;
+  }
+}
+</style>
