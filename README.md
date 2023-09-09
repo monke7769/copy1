@@ -4,6 +4,9 @@
 - All tangible artifact work is in a _posts or in a _notebooks.  
 - Front matter (aka meta data) in ipynb and md files is used to organize information according to week and column in running web site.
 
+## Web Scraper complete
+To update the scrape, run scrapingweb.py again and make sure data.csv is updated. Then run top100table.py again and view changes in top100table.html. Updates visible on that page (CSS to be changed)
+
 ## GitHub Pages
 All `GitHub Pages` websites are managed on GitHub infrastructure. GitHub uses `Jekyll` to tranform your content into static websites and blogs. Each time we change files in GitHub it initiates a GitHub Action that rebuilds and publishes the site with Jekyll.  
 - GitHub Pages is powered by: [Jekyll](https://jekyllrb.com/).
