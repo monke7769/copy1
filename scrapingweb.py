@@ -53,4 +53,5 @@ wksonchart = [spanlist[i] for i in range(4, 798, 8)]  # List of weeks on chart
 
 # Print the song information in CSV format
 for i in range(100):
-    print(str(i + 1) + ',' + songs[i] + ',' + artists[i] + ',' + lastwk[i] + ',' + peakpos[i] + ',' + wksonchart[i])
+    print(str(i + 1) + '`' + songs[i] + '`' + artists[i] + '`' + lastwk[i] + '`' + peakpos[i] + '`' + wksonchart[i])
+# use '`' as the delimiter since some songname/artist fields may contain comma
