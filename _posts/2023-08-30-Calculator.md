@@ -1,5 +1,6 @@
 ---
 toc: true
+comments: true
 layout: default
 title: Calculator
 description: Calculator with improved functionality

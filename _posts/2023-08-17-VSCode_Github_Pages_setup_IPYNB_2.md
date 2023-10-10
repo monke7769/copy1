@@ -1,0 +1,35 @@
+---
+layout: post
+title: VSCode and Github pages setup
+description: Set up all VSCode and Github pages !!
+author: Hayden Chen
+toc: True
+comments: True
+categories: ['5.A', 'C4.1']
+courses: {'compsci': {'week': 0}}
+type: hacks
+---
+
+### Shell commands
+
+cd: change directory. By changing the directory you are working in with cd, it is very easy to navigate around and edit files/use git commands.
+
+git: git is the github main command, git clone allows for the creation of the particular repo into your own device for easy access and editing so you can later commit.
+
+brew: is the mac version of apt on linux OS's. brew is the package manager for macOS and allows installation of many useful website-running packages through the built-in terminal.
+
+### Version control
+
+>>after pulling from GitHub, the files in the repo are stored in /vscode/copy1 and one can easily access them by going through the terminal and cd'ing to the directory, then
+```
+code .
+```
+brings the whole directory up in VSCode.
+>>In the GitHub Cloud, the files are stored at a particular location on their servers, and for me it is at [https://github.com/monke7769/copy1](https://github.com/monke7769/copy1)
+>>It is easy to commit these changes to the Cloud and update the files for teachers wanting to see. One can simply do so by going to the Source Control tab of the VSCode application and typing in the commit message and staging the changes, then commit.
+
+localhost URL for my website: http://127.0.0.1:4000/haydenchen/ (only visible from this machine)
+
+GitHub repo for my website: https://github.com/monke7769/copy1 (visible globally)
+
+The difference here is visibility and changes. Changes made to code locally will not be visible/updated in the global location until a commit is made, which syncs the global version with all the changes made to the repo locally since the last commit.
