@@ -7,6 +7,7 @@ title: Student Blog
 
 Subscribe to my [Youtube channel](https://youtube.com/@84115) !!
 Go to my [Github account](https://github.com/monke7769)
+Follow my [instagram](https://www.instagram.com/haych._.0929/)
 
 ## About me
 DNHS class of '26. Loves CS and math. 3 years of python experience, 3 years of bash experience, 3 months of C++ (since July 2023)
