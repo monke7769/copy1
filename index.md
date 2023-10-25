@@ -9,15 +9,15 @@ Subscribe to my [Youtube channel](https://youtube.com/@84115) !!
 Go to my [Github account](https://github.com/monke7769)
 
 ## About me
-DNHS student, class of '26. Loves CS and math. 3 years of python experience, 3 years of bash experience, 2 months of C++
+DNHS class of '26. Loves CS and math. 3 years of python experience, 3 years of bash experience, 3 months of C++ (since July 2023)
 
 ### Achievements
 
-- 1918 AoPS FTW rating (global #11)
+- 1958 AoPS FTW rating (global #10)
 - USACO Silver
 - USAJMO qualifier
 - 140 top wpm
-- 17k brawl stars trophies
+- 17.8k brawl stars trophies
 - 5 on AP Music Theory 🤣
 - crossy road top score 1000
 - 3 years of Python experience, C++ novice
