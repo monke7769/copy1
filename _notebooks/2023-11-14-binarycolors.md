@@ -5,7 +5,7 @@ layout: post
 title: Colors AND
 description: AND Colors together
 type: hacks
-courses: { compsci: {week: 1} }
+courses: { compsci: {week: 13} }
 ---
 
 <html lang="en">
