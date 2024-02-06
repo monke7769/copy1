@@ -20,6 +20,10 @@ courses: {'compsci': {'week': 20}}
         Full Name:
         <input type="text" name="Name" id="Name" required="" />
     </label></p>
+    <p><label>
+        Favorite Ice Cream Flavor:
+        <input type="text" name="icecream" id="icecream" required="" />
+    </label></p>
     <p>
         <button>Create User</button>
     </p>
@@ -43,6 +47,7 @@ The script defines a function when the page loads. This function is triggered wh
             uid: document.getElementById("uid").value,
             password: document.getElementById("password").value,
             name: document.getElementById("Name").value,
+            icecream: document.getElementById("icecream").value,
         };
 
         // Change options according to Authentication requirements
