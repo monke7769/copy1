@@ -108,18 +108,26 @@ header .container nav a:hover {
 .exp-item {
     display: flex;
     margin-top: 40px;
+    flex-direction: row;
+    align-items: flex-start;
 }
 .org-img {
     width: 48px;
     height: 48px;
+    flex: 0 0 48px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 20px;
 }
 .org-img img {
-    width: 100%;
+    width: auto;
     height: 100%;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 50%;
+    object-fit: contain;
+}
+.exp-details {
+    flex: 1;
 }
 .role-name {
     font-size: 16px;
