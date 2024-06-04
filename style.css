@@ -172,8 +172,25 @@ header .container nav a:hover {
     object-position: center;
     border-radius: 50%;
 }
+.edu-img-2 {
+    width: 120px;
+    height: 60px;
+    margin-right: 20px;
+}
+.edu-img-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10%;
+}
 .edu-name {
     font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.small {
+    font-size: 12px;
     font-weight: 600;
     margin-bottom: 5px;
 }
